@@ -40,7 +40,7 @@ def imprime_mensagem_abertura():
     print('Bem vindo ao jogo de Forca!')
     print('***************************')
 
-def carrega_palavra_secreta(arquivo="palavras.txt"):
+def carrega_palavra_secreta(arquivo="basic/palavras.txt"):
     palavras = []
     with open(arquivo) as arquivo:
         for linha in arquivo:
