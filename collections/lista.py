@@ -39,6 +39,14 @@ print(list(enumerate(idades)))
 for indice, idade in enumerate(idades):
     print(indice, idade)
 
+print(list(reversed(idades)))
+print(sorted(idades, reverse=True))
+print(list(reversed(sorted(idades))))
+
+# Lembre-se list é mutável
+idades.sort()
+print(idades)
+
 idades.clear()
 print(idades)
 
@@ -49,3 +57,4 @@ faz_processamento_de_visualizacao()
 usuarios = [('Fernando', 53, 1970),('Valéria',46,1975),('Luiza', 18, 2005),('Henrique',15,2007)]
 for nome, _, _ in usuarios:
     print(nome)
+
