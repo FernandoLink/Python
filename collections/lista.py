@@ -31,9 +31,21 @@ print([(idade+1) for idade in idades])
 
 print([(idade+1) for idade in idades if idade > 21])
 
+for i in range(len(idades)):
+    print(i, idades[i])
+
+print(list(enumerate(idades)))    
+
+for indice, idade in enumerate(idades):
+    print(indice, idade)
+
 idades.clear()
 print(idades)
 
 faz_processamento_de_visualizacao()
 faz_processamento_de_visualizacao()
 faz_processamento_de_visualizacao()
+
+usuarios = [('Fernando', 53, 1970),('Valéria',46,1975),('Luiza', 18, 2005),('Henrique',15,2007)]
+for nome, _, _ in usuarios:
+    print(nome)
