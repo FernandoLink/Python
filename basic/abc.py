@@ -49,4 +49,4 @@ contas = [conta16, conta17]
 for conta in contas:
   conta.passa_o_mes() # duck typing
 
-
+print(isinstance(conta16, Conta))
