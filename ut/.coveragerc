@@ -1,0 +1,6 @@
+[run]
+source = ./codigo
+
+[report]
+exclude_lines =
+    return self._nome
