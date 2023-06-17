@@ -4,3 +4,6 @@ source = ./codigo
 [report]
 exclude_lines =
     return self._nome
+
+[html]    
+directory = coverage_relatorio_html    
